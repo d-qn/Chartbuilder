@@ -21,10 +21,10 @@ How to use Chartbuilder
 ###Getting started
 If you are not interested in customizing the styles of your charts use the hosted version: http://quartz.github.io/Chartbuilder/
 
-Alternatively: 
+Alternatively:
 
 1. [Download source](https://github.com/Quartz/Chartbuilder/archive/master.zip) (and unzip)
-3. from the terminal navigate to the source folder (on a Mac: `cd ~/Downloads/Chartbuilder-master/`) 
+3. from the terminal navigate to the source folder (on a Mac: `cd ~/Downloads/Chartbuilder-master/`)
 4. run `python -m SimpleHTTPServer`
 5. Open Google Chrome, Apple Safari, or Opera and navigate to [http://localhost:8000/](http://localhost:8000/)
 
@@ -80,9 +80,9 @@ ChartBuild is an HTML/CSS/JS application.  You can easy copy, fork, and install 
 Once you deploy it, configuring is either through CSS overrides, custom HTML, or Javascript configuration.
 
 ####Chart configuration
-Chart configuration is handled by passing a configuration object through to `ChartBuilder.start()`.
+Chart configuration is handled by passing a configuration object through to `element_()`.
 
-    ChartBuilder.start({
+    element_({
       colors: ["#ff4cf4","#ffb3ff","#e69ce6","#cc87cc","#b373b3","#995f99"],
       creditline: 'NewsPost Inc.'
     });
@@ -99,7 +99,7 @@ Why Chartbuilder / Gneisschart
 
 Chartbuilder was created to speed workflow in a newsroom and give reporters more responsibility over their content. It allows someone to create simple graphics quickly within a pre-specified style guide without needing specialized design software.
 
-The output formats are can be used anywhere images and svgs are accepted. There's no need for CMS integration or complex back end systems. 
+The output formats are can be used anywhere images and svgs are accepted. There's no need for CMS integration or complex back end systems.
 
 There are fewer excuses to use screenshots from analyst reports or charts in Excel.
 

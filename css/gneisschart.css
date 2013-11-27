@@ -44,14 +44,14 @@ svg text.metaText {
 	fill:  #999999;
 }
 
-svg text.barLabel, 
+svg text.barLabel,
 svg text.bargridLabel {
 	font-family: 'Frutiger',Helvetica, sans-serif;
 	font-size: 12px
 }
-	
+
 #titleLine {
 	font-family: 'Frutiger',Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	fill: #666666;
 }
